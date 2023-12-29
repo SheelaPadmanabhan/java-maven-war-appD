@@ -32,18 +32,18 @@
  <repositories>
     <repository>
       <id>java-maven-war-appD-group</id>
-      <url>http://172.31.32.114:8081/repository/java-maven-war-appD-group/</url>
+      <url>http://ec2-3-110-212-217.ap-south-1.compute.amazonaws.com:8081/repository/java-maven-war-appD-group/</url>
     </repository>
   </repositories>
 
     <distributionManagement>
     <snapshotRepository>
       <id>java-maven-war-appD-snapshot</id>
-      <url>http://172.31.32.114:8081/repository/java-maven-war-appD-snapshot/</url>
+      <url>http://ec2-3-110-212-217.ap-south-1.compute.amazonaws.com:8081/repository/java-maven-war-appD-snapshot/</url>
     </snapshotRepository>
     <repository>
       <id>java-maven-war-appD-release</id>
-      <url>http://172.31.32.114:8081/repository/java-maven-war-appD-release/</url>
+      <url>http://ec2-3-110-212-217.ap-south-1.compute.amazonaws.com:8081/repository/java-maven-war-appD-release/</url>
     </repository>
   </distributionManagement>
 </project>
