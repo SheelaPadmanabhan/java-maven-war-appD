@@ -39,11 +39,11 @@
     <distributionManagement>
     <snapshotRepository>
       <id>java-maven-war-appD-snapshot</id>
-      <url>http://172.31.9.43:8081/repository/java-maven-war-appD-snapshot/</url>
+      <url>http://35.154.121.250:8081/repository/java-maven-war-appD-snapshot/</url>
     </snapshotRepository>
     <repository>
       <id>java-maven-war-appD-release</id>
-      <url>http://172.31.9.43:8081/repository/java-maven-war-appD-release/</url>
+      <url>http://35.154.121.250:8081/repository/java-maven-war-appD-release/</url>
     </repository>
   </distributionManagement>
 </project>
