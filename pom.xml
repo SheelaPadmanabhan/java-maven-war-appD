@@ -32,7 +32,7 @@
  <repositories>
     <repository>
       <id>java-maven-war-appD-group</id>
-      <url>http://172.31.9.43:8081/repository/java-maven-war-appD-group/</url>
+      <url>http://35.154.121.250:8081/repository/java-maven-war-appD-group/</url>
     </repository>
   </repositories>
 
