@@ -2,10 +2,13 @@
 - name: my First playbook
   hosts: all
 
+  become: true
+  become_user: ec2-user
+
   tasks:
     - name: Example from an Ansible Playbook
-      ans54.169.76.64ible.builtin.ping:
-  tasks:
+      ansible.builtin.ping:
+
     - name: Installing artifact
       ansible.builtin.get_url:
         url: http://54.254.140.118:8081/repository/java-maven-war-appD-release/com/mycompany/app/hello-world-war/1.0.5-9/hello-world-war-1.0.5-9.war
